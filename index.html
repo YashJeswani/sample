@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" class="bg--big">
+<head>
+  <meta charset="UTF-8">
+  <title>Project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/chartist/0.9.7/chartist.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.4/jquery-jvectormap.min.css'>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Controllers-->
+<div class="controller-container">
+  <span class="controller is_current" id="big">Service Provider</span>
+  <span class="controller" id="medium">Property Manager/Broker</span>
+  <span class="controller" id="small">Tenant</span>
+</div>
+<!-- START MAIN -->
+<div id="main">
+
+  <!-- START WRAPPER -->
+  <div class="wrapper">
+
+    
+    <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+    <!-- START CONTENT -->
+    <section id="content">
+      <div class="row">
+
+        <div class="col s4">
+          <!-- Promo Content 1 goes here -->
+        </div>
+        <div class="col s4">
+          <!-- Promo Content 2 goes here -->
+        </div>
+        <div class="col s4">
+          <!-- Promo Content 3 goes here -->
+        </div>
+
+      </div>
+      <!--start container-->
+      <div class="container">
+        <!-- //////////////////////////////////////////////////////////////////////////// -->
+        <div id="work-collections">
+          <div class="row">
+            <div class="col s12 m6 l4">
+              <div id="profile-card" class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="http://demo.geekslabs.com/materialize/v2.1/layout03/images/user-bg.jpg" alt="user background">
+                </div>
+                <div class="card-content">
+                  <img src="http://demo.geekslabs.com/materialize/v2.1/layout03/images/avatar.jpg" alt="" class="circle responsive-img activator card-profile-image">
+                  <a class="btn-floating activator btn-move-up waves-effect waves-light darken-2 right">
+                    <i class="mdi-action-account-circle"></i>
+                  </a>
+
+                  <span class="card-title activator grey-text text-darken-4">Roger Waters</span>
+                  <p><i class="mdi-action-perm-identity cyan-text text-darken-2"></i> Project Manager</p>
+                  <p><i class="mdi-action-perm-phone-msg cyan-text text-darken-2"></i> +1 (612) 222 8989</p>
+                  <p><i class="mdi-communication-email cyan-text text-darken-2"></i> mail@domain.com</p>
+
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Roger Waters <i class="mdi-navigation-close right"></i></span>
+                  <p>Here is some more information about this card.</p>
+                  <p><i class="mdi-action-perm-identity cyan-text text-darken-2"></i> Project Manager</p>
+                  <p><i class="mdi-action-perm-phone-msg cyan-text text-darken-2"></i> +1 (612) 222 8989</p>
+                  <p><i class="mdi-communication-email cyan-text text-darken-2"></i> mail@domain.com</p>
+                  <p><i class="mdi-social-cake cyan-text text-darken-2"></i> 18th June 1990</p>
+                  <p><i class="mdi-device-airplanemode-on cyan-text text-darken-2"></i> BAR - AUS</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m12 l8">
+              <ul id="projects-collection" class="collection">
+                <li class="collection-item avatar">
+                  <i class="mdi-file-folder circle light-blue darken-2"></i>
+                  <span class="collection-header">Field1 (name)</span>
+                  <p>Your Favorites</p>
+                  <a href="#" class="secondary-content"><i class="mdi-action-grade"></i></a>
+                </li>
+                <li class="collection-item">
+                  <div class="row">
+                    <div class="col sss">
+                      <p class="collections-title">Web App</p>
+                      <p class="collections-content">AEC Company</p>
+                    </div>
+                    <div class="col s3">
+                      <span class="task-cat cyan">Development</span>
+                    </div>
+                    <div class="col s3">
+                      <div id="project-line-1"><canvas width="135" height="30" style="display: inline-block; width: 135px; height: 30px; vertical-align: top;"></canvas></div>
+                    </div>
+                  </div>
+                </li>
+                <li class="collection-item">
+                  <div class="row">
+                    <div class="col sss">
+                      <p class="collections-title">Mobile App for Social</p>
+                      <p class="collections-content">iSocial App</p>
+                    </div>
+                    <div class="col s3">
+                      <span class="task-cat grey darken-3">UI/UX</span>
+                    </div>
+                    <div class="col s3">
+                      <div id="project-line-2"><canvas width="135" height="30" style="display: inline-block; width: 135px; height: 30px; vertical-align: top;"></canvas></div>
+                    </div>
+                  </div>
+                </li>
+                <li class="collection-item">
+                  <div class="row">
+                    <div class="col sss">
+                      <p class="collections-title">Website</p>
+                      <p class="collections-content">MediTab</p>
+                    </div>
+                    <div class="col s3">
+                      <span class="task-cat teal">Marketing</span>
+                    </div>
+                    <div class="col s3">
+                      <div id="project-line-3"><canvas width="135" height="30" style="display: inline-block; width: 135px; height: 30px; vertical-align: top;"></canvas></div>
+                    </div>
+                  </div>
+                </li>
+                <li class="collection-item">
+                  <div class="row">
+                    <div class="col sss">
+                      <p class="collections-title">AdWord campaign</p>
+                      <p class="collections-content">True Line</p>
+                    </div>
+                    <div class="col s3">
+                      <span class="task-cat green">SEO</span>
+                    </div>
+                    <div class="col s3">
+                      <div id="project-line-4"><canvas width="135" height="30" style="display: inline-block; width: 135px; height: 30px; vertical-align: top;"></canvas></div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+        <!--work collections end-->
+
+  
+      </div>
+      <!--end container-->
+      <!--card widgets start-->
+     
+    </section>
+    <!-- END CONTENT -->
+
+    </div>
+    <!-- END WRAPPER -->
+  </div>
+    </div>
+    <!-- END MAIN -->
+    <section class="card-container1">
+
+     
+	<div class="card1">
+		<i class="fas fa-paint-brush"></i>
+		<h1>Card #1</h1>
+		<p>This is the first card.</p>
+	</div>
+
+	<div class="card2">
+		<i class="fas fa-desktop"></i>
+		<h1>Card #2</h1>
+		<p>This is the second card.</p>
+	</div>
+
+	<div class="card3">
+		<i class="fas fa-handshake"></i>
+		<h1>Card #3</h1>
+		<p>This is the third card.</p>
+	</div>
+	
+
+ </section>     
+
+ <!-- ================================================
+    Scripts
+    ================================================ -->
+
+    <!-- jQuery Library -->
+
+    
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/chartist/0.9.7/chartist.min.js'></script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.1.1/Chart.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.6.10/js/min/perfect-scrollbar.jquery.min.js'></script><script  src="./script.js"></script>
+
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
